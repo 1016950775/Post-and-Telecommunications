@@ -1,0 +1,86 @@
+.listleft{
+    float: left;
+    width: 280px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.lmenu {
+    width: 278px;
+    height: 350px;
+    margin-top: 5px;
+}
+.lmemutitle {
+    background-image: url(../image/altitle.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 4px 0 0 15px;
+    float: left;
+    font-weight: 600;
+    text-indent: 15px;
+    margin: 5px 3px;
+}
+.lmenu ul li{
+    float: left;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #003365;
+    margin: 20px 0 0 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+.listright{
+    float: right;
+    width: 685px;
+    height: 429px;
+    border: 1px solid #ccc;
+    padding: 5px 5px 5px 10px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.listitle{
+    float: left;
+    height: 35px;
+    background: url("../image/altitle.jpg") left no-repeat;
+    padding-left: 15px;
+    padding-top: 4px;
+    text-indent: 15px;
+    font-weight: 600;
+    margin: 5px 3px;
+}
+.listitle a:hover{
+    color: #0B3E68;
+}
+.kongge{
+    width: 685px;
+    height: 30px;
+    float: left;
+}
+.listright ul{
+    padding-left: 10px;
+    width: 675px;
+    float: left;
+}
+.listright li a:hover {
+    color: #ff3300;
+}
+.xuxian{
+    border: 1px dashed #CCCCCC;
+}
+
+
+
+.bot-nav{
+    border: 1px solid #bbd7e6;
+    width: 983px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    color: #0269ac;
+}

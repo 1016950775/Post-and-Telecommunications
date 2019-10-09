@@ -1,0 +1,104 @@
+.clear:after{/*清除浮动*/
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.clear{/*为IE6，7的兼容性设置*/
+    *zoom:1;
+}
+/*.wraper{*/
+    /*width: 1350px;*/
+/*}*/
+.mazy{
+    margin: 0px 45px;
+}
+.mt25{
+    margin-top: 25px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.kuaijiebox ul li .kuaijie1 {
+    background: url(../image/xy_kuaijie1.png) left center no-repeat;
+}
+.kuaijiebox ul li .kuaijie1:hover{
+    background: url(../image/xy_kuijie_25H.png) left center no-repeat;
+    color: #014a95;
+}
+.kuaijiebox ul li .kuaijie2 {
+    background: url(../image/xy_kuaijie2.png) left center no-repeat;
+}
+.kuaijiebox ul li .kuaijie2:hover{
+    background: url(../image/xy_kuijie_26H.png) left center no-repeat;
+    color: #014a95;
+}
+.kuaijiebox ul li .kuaijie3 {
+    background: url(../image/xy_kuaijie3.png) left center no-repeat;
+}
+.kuaijiebox ul li .kuaijie3:hover{
+    background: url(../image/xy_kuijie_27H.png) left center no-repeat;
+    color: #014a95;
+}
+.kuaijiebox ul li .kuaijie4 {
+    background: url(../image/xy_kuaijie4.png) left center no-repeat;
+}
+.kuaijiebox ul li .kuaijie4:hover{
+    background: url(../image/xy_kuijie_28H.png) left center no-repeat;
+    color: #014a95;
+}
+.kuaijiebox ul li .kuaijie5 {
+    background: url(../image/xy_kuaijie5.png) left center no-repeat;
+}
+.kuaijiebox ul li .kuaijie5:hover{
+    background: url(../image/xy_kuijie_29H.png) left center no-repeat;
+    color: #014a95;
+}
+.kuaijiebox ul li .kuaijie6 {
+    background: url(../image/xy_kuaijie6.png) left center no-repeat;
+}
+.kuaijiebox ul li .kuaijie6:hover{
+    background: url(../image/xy_kuijie_30H.png) left center no-repeat;
+    color: #014a95;
+}
+.kuaijiebox ul li .kuaijie7 {
+    background: url(../image/xy_kuaijie7.png) left center no-repeat;
+}
+.kuaijiebox ul li .kuaijie7:hover{
+    background: url(../image/xy_kuijie_31H.png) left center no-repeat;
+    color: #014a95;
+}
+.kuaijiebox ul li .kuaijie8 {
+    background: url(../image/xy_kuaijie8.png) left center no-repeat;
+}
+.kuaijiebox ul li .kuaijie8:hover{
+    background: url(../image/xy_kuijie_32H.png) left center no-repeat;
+    color: #014a95;
+}
+
+
+.conmidssss li .cm-bg1 {
+    background: url(../image/mc-bg1.png) no-repeat 20px center;
+}
+.conmidssss li .cm-bg2 {
+    background: url(../image/mc-bg2.png) no-repeat 20px center;
+}
+.conmidssss li .cm-bg3 {
+    background: url(../image/mc-bg3.png) no-repeat 20px center;
+}
+.conmidssss li .cm-bg4 {
+    background: url(../image/mc-bg4.png) no-repeat 20px center;
+}
+.conmidssss li .cm-bg5 {
+    background: url(../image/mc-bg5.png) no-repeat 20px center;
+}
+.conmidssss li .cm-bg6 {
+    background: url(../image/mc-bg6.png) no-repeat 20px center;
+}
+.conmidssss li .cm-bg7 {
+    background: url(../image/mc-bg7.png) no-repeat 20px center;
+}
+.conmidssss li .cm-bg8 {
+    background: url(../image/mc-bg8.png) no-repeat 20px center;
+}

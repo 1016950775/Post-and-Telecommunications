@@ -1,0 +1,479 @@
+body{
+    width: 1499px;
+}
+
+
+
+.xytop{
+    height: 170px;
+    width: 100%;
+    background: #014a95;
+}
+.top {
+    width: 1200px;
+    height: 170px;
+    margin: 0 auto;
+}
+.top-left img{
+    float: left;
+    width: 398px;
+    height: 94px;
+    padding-top: 38px;
+}
+.top-right {
+    float: right;
+    width: 785px;
+    height: 130px;
+    padding-top: 40px;
+    background-image: url(../image/xy_topBG.png);
+    background-repeat: no-repeat;
+}
+.top-right1{
+    width: 380px;
+    height: 99px;
+    float: right;
+}
+.right-top li a{
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 9px;
+    margin-left: 15px;
+}
+.color1{
+    background-image: url("../image/color1-Icon_03.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left;
+}
+.right-down{
+    float: right;
+    width: 220px;
+    height: 36px;
+    margin-top: 40px;
+    background-image: url("../image/xy_img_sousuo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.right-down input{
+    border: 0;
+    margin-left: 18px;
+    margin-top: 3px;
+    line-height: 30px;
+    width: 155px;
+    outline: none;
+}
+
+
+
+.navBox {
+    height: 60px;
+    width: 100%;
+    background: #fff;
+}
+.nav {
+    height: 60px;
+    line-height: 60px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav .shouye{
+    background: url("../image/xy_nav_img_18.png") top center no-repeat;
+    color: #014a95;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #4c4c4c;
+    display: block;
+    width: 92px;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+.nav > ul > li > a:hover {
+    background: url("../image/xy_nav_img_18.png") top center no-repeat;
+    color: #014a95;
+}
+.nav ul li ul li a:hover {
+    color: #014a95;
+    background: rgba(255,255,255,0.9);
+    /* background-image: none; */
+}
+.nav ul li ul {
+    width: 118px;
+    border: 0px solid #ccc;
+    display: none;
+}
+.nav ul li:hover ul {
+    display: block;
+    z-index: 999999;
+    position: absolute;
+}
+.nav ul li ul li {
+    width: 118px;
+    /*text-decoration: none;*/
+    font-size: 14px;
+    height: 30px !important;
+    line-height: 30px;
+    margin-left: 0px;
+    background-color: #fff;
+}
+.nav ul li ul li a {
+    width: 118px;
+    height: 30px !important;
+    /*display: block;*/
+    line-height: 30px;
+    /*border-top: 1px solid #fff;*/
+    text-align: center;
+    color: #4c4c4c;
+}
+
+
+.banner img{
+    width: 100%;
+    height: 527px;
+}
+
+
+.conmidbox {
+    width: 100%;
+    height: 506px;
+    overflow: hidden;
+}
+.conmid {
+    width: 1200px;
+    height: 461px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.conmid1 {
+    float: left;
+    width: 370px;
+    height: 416px;
+}
+.titbox {
+    height: 48px;
+    background: url(../image/titBG_20.png) left bottom no-repeat;
+}
+.tit {
+    float: left;
+    font-size: 20px;
+}
+.tiaozhuan{
+    float: right;
+}
+.tiaozhuan a{
+    background: url(../image/xy_tiaozhuan_img.png) left center no-repeat;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #014a95;
+}
+.conmid1-img img{
+    margin-top: 25px;
+    width: 370px;
+    height: 248px;
+    /*margin-bottom: 14px;*/
+}
+.conmid1-txt{
+    margin-top: 10px;
+}
+.conmid1-txt a{
+    float: left;
+}
+.conmid1-txt span{
+    float: right;
+}
+.conmid1-txt li{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+.txt-icon{
+    background-image: url(../image/xy_jiantou_img.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 10px;
+}
+
+.gengduo a {
+    float: right;
+    display: block;
+    background: url(../image/xy_gengduo_img.png) right center no-repeat;
+    padding-right: 12px;
+    font-size: 14px;
+    color: #999999;
+}
+.conmid1 > ul{
+    margin-top: 15px;
+}
+.conmid1 .xian > li a {
+    display: block;
+    font-size: 16px;
+    padding-left: 10px;
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px dashed #cfcfcf;
+}
+.conmid1 > ul > li a span{
+    float: right;
+    font-size: 14px;
+    color: #808080;
+}
+
+.conmids li{
+    background: #e5edf4 url(../image/xy_conmid3_img.png) right bottom no-repeat;
+    height: 33px;
+    /*padding-top: 2px;*/
+    padding-bottom: 18px;
+    margin-top: 11px;
+    padding-left: 20px;
+}
+.conmids li a{
+     display: block;
+    font-size: 16px;
+}
+.conmids li a:hover{
+    color: #014a95;
+}
+.conmids li i{
+    display: block;
+    font-size: 14px;
+    color: #808080;
+}
+
+
+
+.kuaijiebox {
+    width: 100%;
+    height: 195px;
+    background: url(../image/kuijieBG_23.png) center center repeat-x;
+}
+.kuaijiebox ul {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.kuaijiebox ul li {
+    float: left;
+}
+.kuaijiebox ul li a {
+    display: block;
+    font-size: 12px;
+    padding-top: 65px;
+    width: 104px;
+    height: 45px;
+    margin-right: 52.5px;
+    text-align: center;
+    color: #fff;
+}
+.kuaijiebox ul li .kuaijie8{
+    margin-right: 0;
+}
+
+
+
+.conmidss li {
+    height: 40px;
+    line-height: 40px;
+}
+.conmidss li span b {
+    color: #014a95;
+    font-size: 24px;
+}
+.conmidss li a {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.conmidsss li {
+    height: 56px;
+    margin-top: 25px;
+}
+.conmidsss li .date_time {
+    float: left;
+    width: 66px;
+    height: 56px;
+    background: #e5edf4;
+    text-align: center;
+    color: #014a95;
+}
+.conmidsss li .date_time .day {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 24px;
+}
+.conmidsss li .date_time .date_t {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.conmidsss li .tit_zhaiy {
+    display: block;
+    width: 288px;
+    float: left;
+    padding-left: 15px;
+}
+.conmidsss li .tit_zhaiy .tit_z {
+    line-height: 32px;
+    font-size: 16px;
+    color: #014a95;
+}
+.conmidsss li .tit_zhaiy .t_zhaiy {
+    font-size: 14px;
+    color: #4c4c4c;
+}
+.conmidsss li:hover {
+    background: #e5edf4;
+    cursor: pointer;
+}
+
+.conmidssss {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 389px;
+    height: 205px;
+    display: block;
+}
+.conmidssss li {
+    margin-top: 5px;
+    float: left;
+    margin-right: 12px;
+    width: 178px;
+    height: 48px;
+    line-height: 48px;
+    background: #f5f5f5;
+}
+.conmidssss li:hover {
+    background: #ebebeb;
+}
+.conmidssss li a {
+    display: block;
+    padding-left: 60px;
+    font-size: 16px;
+    color: #014a95;
+}
+.conmidssss-img img{
+    width: 370px;
+    height: 75px;
+    margin-top: 8px;
+}
+
+
+
+.footbox {
+    width: 100%;
+    background: #e6e6e6;
+    height: 332px;
+}
+.foot {
+    width: 1200px;
+    margin: 0 auto;
+    height: 332px;
+}
+.foot1 {
+    float: left;
+    width: 370px;
+    margin-top: 50px;
+}
+.foot_tit {
+    font-size: 16px;
+    color: #000000;
+    background: url(../image/foot_tit.png) no-repeat left center;
+    padding-left: 10px;
+}
+.foot_dz {
+    /*font-size: 14px;*/
+    color: #808080;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.foot2 {
+    float: left;
+    display: block;
+    width: 414px;
+    height: 186px;
+    margin-top: 73px;
+    background: url(../image/foot_2.png) no-repeat center;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+}
+
+.foot3 {
+    float: right;
+    width: 311px;
+    margin-top: 50px;
+}
+.foot_ewm {
+    /*float: left;*/
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.foot_fx {
+    float: right;
+    width: 186px;
+    height: 80px;
+    margin-top: 30px;
+    margin-right: -90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.endbox {
+    width: 100%;
+    height: 58px;
+    background: #014a95;
+}
+.end {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 58px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
